@@ -47,16 +47,17 @@ def deletar_usuario(id_usuario):
 # --- TESTANDO AS FUNÇÕES ---
 
 # Exemplo de uso:
-criar_usuario("Alice", 25)
-criar_usuario("Bob", 30)
+criar_usuario("Larissa", 25)
+criar_usuario("Richard", 30)
 
-listar_usuarios()  # Exibe Alice e Bob
+listar_usuarios()  # Exibe Larissa e Richard
 
-atualizar_usuario(1, "Alice Silva", 26)  # Atualiza o cadastro do ID 1
+atualizar_usuario(1, "Larissa Carvalho", 26)  # Atualiza o cadastro do ID 1
 listar_usuarios()  # Exibe os dados atualizados
 
-deletar_usuario(2)  # Remove o ID 2 (Bob)
-listar_usuarios()  # Exibe apenas Alice Silva
+deletar_usuario(2)  # Remove o ID 2
+listar_usuarios()  # Exibe apenas Larissa Carvalho
+
 
 # Fechar a conexão
 con.close()
